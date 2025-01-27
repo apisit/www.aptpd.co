@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${atkinsons.variable} antialiased`}
+        className={`${atkinsons.variable} antialiased absolute inset-0`}
       >
         {children}
       </body>
